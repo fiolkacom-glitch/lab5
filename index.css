@@ -1,0 +1,123 @@
+.box-static {
+    position: static;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    color: white;
+    display: flex;
+    margin: 5px;
+    color:black;
+}
+
+.box-relative-1 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background-color: lightgreen;
+    color: black;
+    display: flex;
+    margin-left: 35px;
+    top: 30px;
+}
+
+.box-relative-2 {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    background-color: pink;
+    color: black;
+    display: flex;
+    margin-left: 50px;
+}
+
+.container {
+    position: relative; /*относ позиц*/
+    width: 300px;
+    height: 300px;
+    background-color: grey;
+    margin: 40px 5px;
+}
+
+.box-absolute-1 {
+    position: absolute; /*абсолют позиц (относительно)*/
+    width: 90px;
+    height: 90px;
+    background-color: orange;
+    color: black;
+    display: flex;
+    top: 20px;
+    left: 20px;
+    z-index: 3; /*!!! самый верхний*/
+}
+
+.box-absolute-2 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background-color: lightskyblue;
+    color: black;
+    display: flex;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+
+.box-absolute-3 {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    background-color: purple;
+    color: black;
+    display: flex;
+    top: 80px;
+    left: 80px;
+    z-index: 1;
+}
+
+.box-zindex-1 {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background-color: palevioletred;
+    color: color;
+    display: flex;
+    top: 50px;
+    left: 400px;
+    z-index: 2;
+}
+
+.box-zindex-2 {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background-color: #1abc9c;
+    color: color;
+    display: flex;
+    top: 80px;
+    left: 440px;
+    z-index: 1;
+}
+
+.box-fixed-1 {
+    position: fixed;
+    width: 90px;
+    height: 90px;
+    background-color: yellow;
+    color: color;
+    display: flex;
+    top: 20px;
+    right: 20px;
+    z-index: 100; /* большой z-index */
+}
+
+.box-fixed-2 {
+    position: fixed;
+    width: 90px;
+    height: 90px;
+    background-color: orange;
+    color: color;
+    display: flex;
+    bottom: 20px;
+    left: 13px;
+    z-index: 100; /* большой z-index */
+}
